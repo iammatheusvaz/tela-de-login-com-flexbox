@@ -6,18 +6,18 @@
 
 h1 {
   margin-bottom: 30px;
-  color: #cfcfcf;
+  color: #ffffff;
   font-size: 22px;
 }
 
 h2 {
-  color: #6a329b;
+  color: #611593;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
-  background: #611593;
+  background: #642e88;
   display: flex;
   flex-direction: column; /*Propriedade para alinhar em coluna todos os elementos dentro da classe container*/
   justify-content: center; /*com esta propriedade definida como center, fazemos com que os elementos internos (da classe box) sejam alinhados na horizontal*/
@@ -35,32 +35,42 @@ input {
 }
 
 input[type="button"] {
-  background-color: #6a329b;
-  color: #cfcfcf;
+  background-color: #611593;
+  color: #ffffff;
   cursor: pointer;
   font-weight: 500;
 }
 
 input[type="button"]:hover {
-  background-color: #cfcfcf;
-  color: #6a329b;
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+
+input[value="Cadastrar"] {
+  background-color: #bb9ece;
+  color: #611593;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+input[value="Cadastrar"]:hover {
+  transform: scale(1.05);
 }
 
 .box {
+  box-shadow: 1px 1px 20px #611593;
   width: 300px;
-  height: 300px;
+  height: 350px;
   background: #fff;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
-  border-top: 8px solid #6a329b;
+  border-top: 8px solid #430b68;
 }
 
 p {
   margin-top: 10px;
-  font-size: 14.5px;
+  font-size: 13.7px;
 }
 
 a {
