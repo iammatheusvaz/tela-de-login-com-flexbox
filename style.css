@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #cfcfcf;
+  font-size: 22px;
+}
+
+h2 {
+  color: #6a329b;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #611593;
+  display: flex;
+  flex-direction: column; /*Propriedade para alinhar em coluna todos os elementos dentro da classe container*/
+  justify-content: center; /*com esta propriedade definida como center, fazemos com que os elementos internos (da classe box) sejam alinhados na horizontal*/
+  align-items: center; /*com esta propriedade definida como center, fazemos com que os elementos internos sejam também alinhados na vertical*/
+}
+
+input {
+  margin-top: 15px;
+  border: none;
+  background-color: #cfcfcf;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  font-size: 16px;
+}
+
+input[type="button"] {
+  background-color: #6a329b;
+  color: #cfcfcf;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+input[type="button"]:hover {
+  background-color: #cfcfcf;
+  color: #6a329b;
+  transform: scale(1.02);
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  border-top: 8px solid #6a329b;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
